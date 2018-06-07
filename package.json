@@ -1,6 +1,6 @@
 {
   "name": "react-focus-marshal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Traps focus within a DOM node — subsequently mounted traps will pause others and take focus responsibility until they unmount.",
   "main": "dist/index.js",
   "license": "MIT",
