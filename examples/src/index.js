@@ -100,7 +100,7 @@ class App extends React.Component {
               </a>
               <span> &middot; </span>
               <a
-                href="https://www.npmjs.com/package/react-toast-notifications"
+                href="https://www.npmjs.com/package/react-focus-marshal"
                 target="_blank"
               >
                 npm
