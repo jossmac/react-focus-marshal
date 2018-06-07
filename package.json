@@ -1,0 +1,54 @@
+{
+  "name": "react-focus-marshal",
+  "version": "1.0.0",
+  "description": "Traps focus within a DOM node — subsequently mounted traps will pause others and take focus responsibility until they unmount.",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "homepage": "https://jossmac.github.io/react-focus-marshal",
+  "bugs": {
+    "url": "https://github.com/jossmac/react-focus-marshal/issues"
+  },
+  "keywords": [
+    "react",
+    "focus",
+    "trap",
+    "a11y"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "build": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run build",
+    "build:examples": "webpack --mode production",
+    "deploy:examples": "gh-pages -d examples/dist",
+    "publish:examples": "npm run build:examples && npm run deploy:examples"
+  },
+  "dependencies": {
+    "focus-trap": "^2.4.5",
+    "react-node-resolver": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "gh-pages": "^1.1.0",
+    "glam": "^5.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
