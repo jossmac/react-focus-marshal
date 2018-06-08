@@ -4,7 +4,12 @@
   "description": "Traps focus within a DOM node — subsequently mounted traps will pause others and take focus responsibility until they unmount.",
   "main": "dist/index.js",
   "license": "MIT",
+  "author": "Joss Mackison (https://github.com/jossmac)",
   "homepage": "https://jossmac.github.io/react-focus-marshal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jossmac/react-focus-marshal.git"
+  },
   "bugs": {
     "url": "https://github.com/jossmac/react-focus-marshal/issues"
   },
