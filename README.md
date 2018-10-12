@@ -1,6 +1,6 @@
 # Focus Marshal
 
-Traps focus within a DOM node — subsequently mounted traps will take control of focus and pause others until unmount.
+Traps focus within a DOM node — subsequently mounted traps will take control of focus and pause others until unmounted.
 
 ### Install
 
